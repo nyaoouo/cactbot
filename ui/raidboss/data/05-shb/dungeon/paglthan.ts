@@ -32,7 +32,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5C4E', source: 'Amhuluk' }),
       netRegexJa: NetRegexes.startsUsing({ id: '5C4E', source: 'アムルック' }),
       netRegexCn: NetRegexes.startsUsing({ id: '5C4E', source: '阿姆鲁克' }),
-      condition: Conditions.caresAboutPhysical(),
       response: Responses.tankBuster(),
     },
     {
@@ -43,7 +42,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5C4D', source: 'Amhuluk', capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '5C4D', source: 'アムルック', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5C4D', source: '阿姆鲁克', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
@@ -89,7 +87,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexJa: NetRegexes.startsUsing({ id: '5C9E', source: '魔導コア', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5C9E', source: '魔导核心', capture: false }),
       netRegexKo: NetRegexes.startsUsing({ id: '5C9E', source: '마도핵', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
@@ -100,7 +97,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5B47', source: 'Luna-Bahamut', capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '5B47', source: 'ルナバハムート', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5B47', source: '真月巴哈姆特', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
@@ -238,7 +234,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5B58', source: 'Luna-Bahamut' }),
       netRegexJa: NetRegexes.startsUsing({ id: '5B58', source: 'ルナバハムート' }),
       netRegexCn: NetRegexes.startsUsing({ id: '5B58', source: '真月巴哈姆特' }),
-      condition: Conditions.caresAboutPhysical(),
       response: Responses.tankBuster(),
     },
     {
@@ -249,7 +244,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5B57', source: 'Luna-Bahamut', capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '5B57', source: 'ルナバハムート', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5B57', source: '真月巴哈姆特', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
   ],

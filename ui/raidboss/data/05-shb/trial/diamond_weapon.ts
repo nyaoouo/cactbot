@@ -38,7 +38,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ source: 'Arme Diamant', id: '5FA7', capture: false }),
       netRegexJa: NetRegexes.startsUsing({ source: 'ダイヤウェポン', id: '5FA7', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ source: '钻石神兵', id: '5FA7', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
@@ -126,7 +125,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ source: 'Arme Diamant', id: '5FD7', capture: false }),
       netRegexJa: NetRegexes.startsUsing({ source: 'ダイヤウェポン', id: '5FD7', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ source: '钻石神兵', id: '5FD7', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {

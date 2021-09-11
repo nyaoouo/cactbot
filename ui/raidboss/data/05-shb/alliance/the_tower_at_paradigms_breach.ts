@@ -39,7 +39,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5EB5', source: 'Jack', capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '5EB5', source: 'ジャック', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5EB5', source: '杰克', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
@@ -320,7 +319,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5C7[67]', source: ['Hansel', 'Gretel'], capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '5C7[67]', source: ['ヘンゼル', 'グレーテル'], capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5C7[67]', source: ['韩塞尔', '格雷特'], capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
@@ -380,7 +378,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5C7[34]', source: ['Hansel', 'Gretel'], capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '5C7[34]', source: ['ヘンゼル', 'グレーテル'], capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5C7[34]', source: ['韩塞尔', '格雷特'], capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
@@ -391,7 +388,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '601[23]', source: 'Fille En Rouge', capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '601[23]', source: '赤い少女', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '601[23]', source: '红衣少女', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
@@ -451,7 +447,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5C06', source: ['Meng-Zi', 'Xun-Zi'], capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '5C06', source: ['モウシ', 'ジュンシ'], capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5C06', source: ['孟子', '荀子'], capture: false }),
-      condition: Conditions.caresAboutAOE(),
       suppressSeconds: 5,
       response: Responses.aoe(),
     },
@@ -463,7 +458,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5BDD', source: 'Déesse Factice', capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '5BDD', source: '偽造サレタ神', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5BDD', source: '伪造的神明', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
@@ -559,7 +553,6 @@ const triggerSet: TriggerSet<Data> = {
       netRegexFr: NetRegexes.startsUsing({ id: '5BF5', source: 'Déesse Éclose', capture: false }),
       netRegexJa: NetRegexes.startsUsing({ id: '5BF5', source: '開花シタ神', capture: false }),
       netRegexCn: NetRegexes.startsUsing({ id: '5BF5', source: '开花的神明', capture: false }),
-      condition: Conditions.caresAboutAOE(),
       response: Responses.aoe(),
     },
     {
